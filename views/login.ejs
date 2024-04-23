@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="app.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-form-container active">
+        <form action="/login" method="post">
+            <h3>Login</h3>
+            <input type="text" class="box" id="name" name="username" placeholder="Enter your username..." required autocomplete="off">
+            <input type="password" class="box" id="password" name="password" placeholder="Enter your password" required>
+            <button type="submit" class="btn">Login</button>
+            <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+        </form>
+    </div>
+
+
+
+                                                           <!--home  section starts-->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn" data-src="video-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="video-5.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!--home  section ends-->
+</body>
+</html>
